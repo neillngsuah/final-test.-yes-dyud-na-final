@@ -1,6 +1,9 @@
+#pip install pyserial
 import serial 
+#pip install Adafruit-Blinka
 import digitalio
 import board
+#pip install times 
 import time 
 #Just change any number in COM # to connect with your arduino
 AdruinoSerial = serial.Serial ('COM7',9600)
